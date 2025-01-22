@@ -1,0 +1,39 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "# Big Hello, Quarto!\n",
+        "## Smaller hello, quarto!\n",
+        "###### smallest hello, quarto!\n",
+        "This is a demo of Markdown features:\n",
+        "- **Bold text**\n",
+        "- *Italic text*\n",
+        "- [Links](https://quarto.org)\n",
+        "- ![Image](https://picsum.photos/200/300)\n"
+      ],
+      "id": "ce7f93e4"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "def greet(name):\n",
+        "   print(f\"Hello, {name}! How are you?\")"
+      ],
+      "id": "c9df08a0",
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

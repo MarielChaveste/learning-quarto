@@ -1,0 +1,13 @@
+# Big Hello, Quarto!
+## Smaller hello, quarto!
+###### smallest hello, quarto!
+This is a demo of Markdown features:
+- **Bold text**
+- *Italic text*
+- [Links](https://quarto.org)
+- ![Image](https://picsum.photos/200/300)
+
+```python
+def greet(name):
+   print(f"Hello, {name}! How are you?")
+```
