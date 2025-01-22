@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2025-01-22">
 
-<title>example</title>
+<title>Learning Quarto</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -77,7 +78,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Learning Quarto</h1>
+</div>
 
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 22, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 <section id="big-hello-quarto" class="level1">
@@ -86,9 +109,27 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="smaller-hello-quarto">Smaller hello, quarto!</h2>
 <section id="smallest-hello-quarto" class="level6">
 <h6 class="anchored" data-anchor-id="smallest-hello-quarto">smallest hello, quarto!</h6>
-<p>This is a demo of Markdown features: - <strong>Bold text</strong> - <em>Italic text</em> - <a href="https://quarto.org">Links</a> - <img src="https://picsum.photos/200/300.png" class="img-fluid" alt="Image"></p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> greet(name):</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>   <span class="bu">print</span>(<span class="ss">f"Hello, </span><span class="sc">{</span>name<span class="sc">}</span><span class="ss">! How are you?"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This is a demo of Markdown features: - <strong>Bold text</strong> - <em>Italic text</em> - <a href="https://quarto.org">Links</a> - <img src="https://fastly.picsum.photos/id/458/200/300.jpg?hmac=2d4QALnxYzzYD8DSwuNsa7lutkdOxLsKojuxbNfd31I" class="img-fluid" alt="Image"></p>
+<p>Python</p>
+<div id="36a14b29" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> greet(name):</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>   <span class="bu">print</span>(<span class="ss">f"Hello, </span><span class="sc">{</span>name<span class="sc">}</span><span class="ss">! How are you?"</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>greet(<span class="st">"David"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Hello, David! How are you?</code></pre>
+</div>
+</div>
+<p>R</p>
+<pre class="{r}"><code>greet &lt;- function(name) {
+   print(paste("Hello", name))
+}
+
+print("Ravi")</code></pre>
+<p>JavaScript</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">greet</span>(name) {</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>   <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="vs">`Hello, </span><span class="sc">${</span>name<span class="sc">}</span><span class="vs">!`</span>)<span class="op">;</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 </section>
 </section>
